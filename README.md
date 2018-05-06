@@ -14,7 +14,14 @@ Clone the repo or download php-switch.sh
 
 ## Usage
 
-./php-switch.sh info
-./php-switch.sh install 7.0
-./php-switch.sh uninstall 7.0
-
+  ./php-switch.sh add-repo
+  
+  ./php-switch.sh info
+  
+  ./php-switch.sh install 7.0
+  
+  ./php-switch.sh uninstall 7.0
+  
+  ./php-switch.sh ver
+  
+  
