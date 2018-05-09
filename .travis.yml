@@ -1,3 +1,10 @@
 language: bash
 script:
   ./php-switch.sh
+  ./php-switch.sh info
+  ./php-switch.sh ver
+  ./php-switch.sh add-repo
+  ./php-switch.sh repo-pkg
+  ./php-switch.sh repo-pkg 7.0
+  ./php-switch.sh repo-pkg
+  ./php-switch.sh info
