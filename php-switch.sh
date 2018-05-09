@@ -80,7 +80,7 @@ php-switch-add-repo () {
         sudo add-apt-repository -y ppa:ondrej/php > /dev/null
 
         echo "- Updating repos ..."
-        sudo apt-get update > /dev/null
+        sudo apt-get update
     fi
 }
 
